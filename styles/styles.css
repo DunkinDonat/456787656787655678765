@@ -1,0 +1,218 @@
+body
+{
+	 background:#cccccc; 
+}
+
+#container
+{
+	border:1px solid black;
+	width:800px;
+	height:660px;
+	margin:auto;
+}
+
+#header
+{
+	font-size:14px;
+	border-bottom:1px solid black;
+	background: #3E7ACF;
+	height:20px;
+}
+
+#content
+{
+	border-top: 1px solid #000000;
+	height:610px;
+	clear:both;
+}
+
+#canvas
+{
+	border-bottom:1px solid black;
+	background: white;
+	z-index:0;
+}
+
+#header ul {
+	list-style-type:none;
+	list-style-image:none;
+	margin:0px;
+	padding:0px;
+	height:20px;
+}
+
+#header li.topmenu {
+	float:left;
+	height:30px;
+}
+
+.topmenu span {
+	float:left;
+	width:110px;
+	text-align:center;
+}
+
+.topmenu ul{
+	display:none;
+	
+}
+
+.topmenu span, .submenu span{
+	padding:1px 5px;
+	border-right:1px solid #7B9FD1;
+	border-collapse:collapse;
+	color:#7B9FD1;
+	font-weight:bold;
+	text-decoration:none;
+	background-color:#3E7ACF;
+	margin:0;  
+	cursor:pointer;
+}
+
+.submenu span{
+	border-top:1px solid #7B9FD1;
+	border-bottom:1px solid #7B9FD1;
+	font-size:12px;
+	width:110px;
+	position:relative;
+	clear:both; /* special IE6 */
+}
+
+li span:hover
+{
+	background-color:#1859B5;
+}
+
+#header span:hover, .topmenu.on span {
+	color:#4C4C4C;
+	background-color:#ffddbb !important;
+}
+
+.topmenu:hover ul {
+	display:block;  
+	z-index:500;
+}
+
+
+/* Togglebuttons */
+
+div.btn_group
+{
+	width:158px;
+	float:left;
+	border-right:1px solid black;
+}
+
+#tools
+{
+	border-left:1px solid black;
+	width:63px;
+}
+
+#thickness
+{
+	width:95px;
+}
+
+[unselectable] {
+    -webkit-user-select: none;
+    -moz-user-select: none;
+    user-select: none;
+}
+.mx-button input {
+    display: none;
+}
+.mx-button label {
+    background: #ccc;
+	border-right:1px solid #7B9FD1;
+	border-radius:5px;
+    color: #666;
+	float:left;
+	height:26px;
+	width:26px;
+	margin:2px;
+	z-index:100;
+	cursor:pointer;
+}
+
+.mx-button label:hover {
+    background: grey;
+}
+.mx-button label:active,
+.mx-button input:focus + label {
+    background: darkgrey;
+}
+.mx-button input:checked + label {
+    background: grey;
+}
+
+#drawlbl
+{
+	background-image:url(../images/pensil.png);
+	background-repeat:no-repeat;
+	background-position:center;
+}
+
+#eraselbl
+{
+	background-image:url(../images/eraser.png);
+	background-repeat:no-repeat;
+	background-position:center;
+}
+
+#redlbl
+{
+	background-image:url(../images/red.png);
+	background-repeat:no-repeat;
+	background-position:center;
+}
+
+#yellowlbl
+{
+	background-image:url(../images/yellow.png);
+	background-repeat:no-repeat;
+	background-position:center;
+}
+
+#greenlbl
+{
+	background-image:url(../images/green.png);
+	background-repeat:no-repeat;
+	background-position:center;
+}
+
+#bluelbl
+{
+	background-image:url(../images/blue.png);
+	background-repeat:no-repeat;
+	background-position:center;
+}
+
+#blacklbl
+{
+	background-image:url(../images/black.png);
+	background-repeat:no-repeat;
+	background-position:center;
+}
+
+#thinlbl
+{
+	background-image:url(../images/thin.png);
+	background-repeat:no-repeat;
+	background-position:center;
+}
+
+#regularlbl
+{
+	background-image:url(../images/regular.png);
+	background-repeat:no-repeat;
+	background-position:center;
+}
+
+#thicklbl
+{
+	background-image:url(../images/thick.png);
+	background-repeat:no-repeat;
+	background-position:center;
+}
+
